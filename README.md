@@ -8,3 +8,5 @@ http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials
 
 2.exercise.py is acturally the opencv7_exercise
 it can create a slide show of images in a folder with smooth transition between images.
+
+3.grabcut.py is a simple foreground grabing algorithm, you can draw rectangle or white lines to mark your foreground and black lines for background, then the code will calculate the foreground and background. Although the result is not very good.
