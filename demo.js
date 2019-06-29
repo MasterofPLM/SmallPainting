@@ -21,7 +21,7 @@ var sankey = d3.sankey()
     .size([width, height]);
 
 // load the data
-d3.json("data.json", function(error, graph) {
+d3.json("https://github.com/MasterofPLM/SmallPainting/blob/master/data.json", function(error, graph) {
 
   // Constructs a new Sankey generator with the default settings.
   sankey
